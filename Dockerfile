@@ -37,4 +37,4 @@ RUN wget https://www.bok.net/Bento4/binaries/Bento4-SDK-1-6-0-639.x86_64-unknown
 ENV PATH="/app:${PATH}"
 
 # Run your application
-CMD [gunicorn app:app & python3 main.py]
+CMD [python3 main.py]
