@@ -30,7 +30,7 @@ user_collection = db["user_details"]
 
 # Global variables
 owner_id = 6155478725
-auth_users = [6155478725]
+auth_users = [6155478725,5347709348]
 token = ""
 batch_ids = {}
 batch_name_dict = {}
